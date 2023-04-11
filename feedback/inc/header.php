@@ -1,3 +1,5 @@
+<?php include 'config/database.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -32,21 +34,21 @@
                         <li class="nav-item">
                             <a
                                 class="nav-link"
-                                href="/php-crash/feedback/index.php"
+                                href="/php-fundamentals-practice/feedback/index.php"
                                 >Home</a
                             >
                         </li>
                         <li class="nav-item">
                             <a
                                 class="nav-link"
-                                href="/php-crash/feedback/feedback.php"
+                                href="/php-fundamentals-practice/feedback/feedback.php"
                                 >Feedback</a
                             >
                         </li>
                         <li class="nav-item">
                             <a
                                 class="nav-link"
-                                href="/php-crash/feedback/about.php"
+                                href="/php-fundamentals-practice/feedback/about.php"
                                 >About</a
                             >
                         </li>

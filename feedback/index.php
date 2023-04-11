@@ -1,6 +1,6 @@
 <?php include 'inc/header.php'; ?>
     <img
-        src="/php-crash/feedback/img/logo.png"
+        src="/php-fundamentals-practice/feedback/img/logo.png"
         class="w-25 mb-3"
         alt=""
     />
