@@ -28,8 +28,18 @@
         }
     }
 
-    // echo $nameErr;
-    // echo $name;
+    if(empty($nameErr) && empty($emailErr) && empty($bodyErr)) {
+        // Add to database
+        $sql = "INSERT INTO feedback (name, email, body) VALUES ('$name', '$email', '$body')";
+    }
+
+    if(mysqli_query($conn, $sql)) {
+        // Success 
+        // header('Location: feedback.php');
+    } else {
+        // Error
+        echo 'Error: ' . mysqli_error($conn);
+    }
 ?>
 
     <img
